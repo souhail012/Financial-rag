@@ -39,7 +39,7 @@ def load_vectorstore():
 def build_langchain_qa():
     """Build and return the RetrievalQA chain."""
     vectorstore = load_vectorstore()
-    llm = OllamaLLM(model=OLLAMA_MODEL)  # From config
+    llm = OllamaLLM(model=OLLAMA_MODEL) 
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
         retriever=vectorstore.as_retriever(search_kwargs={"k": 3}),
@@ -47,7 +47,6 @@ def build_langchain_qa():
     )
     return qa_chain
 
-# Optional: test pipeline from command line
 if __name__ == "__main__":
     qa_chain = build_langchain_qa()
     query = "What was the company's revenue in 2023?"

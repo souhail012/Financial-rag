@@ -32,7 +32,7 @@ def generate_embeddings_and_index(
 
     # Build FAISS index
     dim = embeddings.shape[1]
-    index = faiss.IndexFlatIP(dim)  # inner product for cosine similarity
+    index = faiss.IndexFlatIP(dim)  
     index.add(embeddings)
     faiss.write_index(index, os.path.join(EMBEDDINGS_FOLDER, faiss_file))
 

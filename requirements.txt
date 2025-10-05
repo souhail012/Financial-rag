@@ -1,0 +1,9 @@
+pypdf
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+langdetect
+requests
+torch
+transformers

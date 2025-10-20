@@ -1,0 +1,11 @@
+None,Definition of levels
+,
+Level 5,"Incident that contains major non-conformances or non-compliances. These non-compliances are those that
+result in long-term environmental impact. Company or operation-threatening implications."
+Level 4,"Incident that contains significant non-conformances or non-compliances. These non-compliances are those that
+result in medium-term environmental impact. Serious environmental impact, but not operation-threatening events."
+Level 3,"Incident that contains limited non-conformances or non-compliances. These non-compliances are those that
+result in ongoing but limited environmental impact."
+Level 2,"Incident that involves minor non-conformances that result in short-term, limited and non-ongoing adverse
+environmental impact."
+Level 1,Incident that involves minor non-conformances that result in negligible adverse environmental impact.

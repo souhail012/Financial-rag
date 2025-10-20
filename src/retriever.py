@@ -1,55 +1,56 @@
-# src/retriever.py
-
-import numpy as np
+import os
+import logging
 import pandas as pd
 import faiss
+from pathlib import Path
+
 from langchain_community.vectorstores import FAISS
-from langchain_ollama import OllamaLLM
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA
-from src.config import EMBEDDINGS_FOLDER, OLLAMA_MODEL
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.docstore.in_memory import InMemoryDocstore
+from langchain_core.documents import Document  
 
-def load_vectorstore():
-    """Load embeddings, build FAISS index, and return a LangChain vectorstore."""
-    print("🔹 Loading embeddings and metadata...")
-    metadata = pd.read_csv(f"{EMBEDDINGS_FOLDER}/indexed_chunks.csv")
-    embeddings_array = np.load(f"{EMBEDDINGS_FOLDER}/embeddings.npy")
+from src.config import VECTOR_DB_PATH, EMBEDDING_MODEL
 
-    # Initialize embedding model
-    embeddings_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L12-v2")
+# Setup logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
-    # Build FAISS index
-    dimension = embeddings_array.shape[1]
-    index = faiss.IndexFlatIP(dimension)
-    index.add(embeddings_array)
 
-    # Create LangChain-compatible FAISS store
-    docs = [
-        {"page_content": row["text"], "metadata": {"filename": row["filename"], "chunk_id": row["chunk_id"]}}
-        for _, row in metadata.iterrows()
-    ]
+def build_langchain_retriever():
+    """Load FAISS index + metadata and return a LangChain retriever."""
+    faiss_path = Path(VECTOR_DB_PATH).with_suffix(".faiss")
+    meta_path = Path(VECTOR_DB_PATH).with_name(f"{Path(VECTOR_DB_PATH).stem}_meta.csv")
 
-    vectorstore = FAISS.from_embeddings(
-        text_embeddings=list(zip([d["page_content"] for d in docs], embeddings_array)),
-        embedding=embeddings_model,
-        metadatas=[d["metadata"] for d in docs]
+    if not faiss_path.exists():
+        raise FileNotFoundError(f"FAISS index not found at {faiss_path}")
+
+    if not meta_path.exists():
+        raise FileNotFoundError(f"Metadata CSV not found at {meta_path}")
+
+    logger.info(f"Loading FAISS index from {faiss_path}")
+
+    # Load embeddings
+    embedding = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+
+    # Load FAISS index
+    index = faiss.read_index(str(faiss_path))
+
+    # Load metadata
+    df = pd.read_csv(meta_path)
+    docs = [Document(page_content=row["text"], metadata=row.to_dict()) for _, row in df.iterrows()]
+
+    # ✅ Proper InMemoryDocstore
+    docstore = InMemoryDocstore({str(i): doc for i, doc in enumerate(docs)})
+    index_to_docstore_id = {i: str(i) for i in range(len(docs))}
+
+    # Build FAISS vectorstore
+    vectorstore = FAISS(
+        embedding_function=embedding,
+        index=index,
+        docstore=docstore,
+        index_to_docstore_id=index_to_docstore_id
     )
-    return vectorstore
 
-def build_langchain_qa():
-    """Build and return the RetrievalQA chain."""
-    vectorstore = load_vectorstore()
-    llm = OllamaLLM(model=OLLAMA_MODEL) 
-    qa_chain = RetrievalQA.from_chain_type(
-        llm=llm,
-        retriever=vectorstore.as_retriever(search_kwargs={"k": 3}),
-        chain_type="stuff"
-    )
-    return qa_chain
-
-if __name__ == "__main__":
-    qa_chain = build_langchain_qa()
-    query = "What was the company's revenue in 2023?"
-    print("🔍 Query:", query)
-    answer = qa_chain.run(query)
-    print("\n💬 Answer:\n", answer)
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+    logger.info("✅ FAISS retriever successfully loaded.")
+    return retriever

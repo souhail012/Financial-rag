@@ -1,0 +1,127 @@
+index,question,true_answer,pred_answer,similarity,cosine_sim,bleu,rouge_l
+0,the value of B-BBEE level (South Africa) in Absa document in 2019?,1.0,"Unfortunately, I do not see any information about Absa's B-BBEE level in the provided context. However, I can suggest some possible sources where you may be able to find this information:
+
+1. Absa's annual reports or sustainability reports for 2019.
+2. Absa's website, specifically the section on B-BBEE or sustainability.
+3. The South African National B-BBEE Commission's website, which may have information on Absa's B-BBEE level.
+
+If you have access to Absa's 2019 annual report or sustainability report, you may be able to find the information you are looking for.",0.1159636676311492,,,
+1,the value of B-BBEE level (South Africa) in Absa document in 2020?,2.0,"Based on the provided context, I was unable to find the specific information regarding the B-BBEE level of Absa in the 2020 document. However, I can suggest that you may need to refer to the Absa Sustainability Report 2020 or other relevant documents for this information.
+
+However, I can provide information on the B-BBEE level of other companies mentioned in the context. For example, in the context provided, the B-BBEE level of Sasol in 2023 is Level 3, and in 2022, it was Level 4.",0.1912863105535507,,,
+2,the value of B-BBEE level (South Africa) in Absa document in 2021?,1.0,"Based on the provided context, I was unable to find the value of B-BBEE level (South Africa) in the Absa document in 2021. However, I can provide information on B-BBEE levels from other companies.
+
+According to the context, Tongaat Hulett achieved a B-BBEE rating of Level 2 in the coming period. 
+
+Another company, Sasol, achieved a B-BBEE status of Level 3 in 2023.
+
+If you are looking for the B-BBEE level of Absa in 2021, I would recommend checking the Absa Sustainability Report 2021 or contacting Absa directly for more information.",0.1392735540866851,,,
+3,the value of B-BBEE level (South Africa) in Absa document in 2022?,1.0,"Based on the provided context, I was unable to find the specific information regarding the B-BBEE level of Absa in the 2022 document. However, I can suggest that you may need to refer to the Absa Sustainability Report 2022 or other relevant documents for the accurate information.
+
+However, I can provide information on the B-BBEE level of other companies mentioned in the context. For example, in the 2021 ESG report of Tongaat Hulett, it is mentioned that the company achieved a Level 2 B-BBEE rating.
+
+If you need to find the B-BBEE level of Absa in 2022, I recommend checking the Absa Sustainability Report 2022 or contacting Absa directly for the accurate information.",0.1102582067251205,,,
+4,the value of Board meeting attendance (%) in Absa document in 2019?,95.0,"Unfortunately, I do not have the information on the value of Board meeting attendance (%) in Absa document in 2019. The provided tables appear to be from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, and do not contain any data related to Board meeting attendance in 2019.
+
+However, I can suggest searching for the 2019 Absa Group Limited Environmental, Social, and Governance Data sheet or the 2019 Annual Report of Absa Group Limited, which may contain the required information.",0.1041583567857742,,,
+5,the value of Board meeting attendance (%) in Absa document in 2020?,99.0,"Unfortunately, I do not have the information on the value of Board meeting attendance (%) in Absa document for 2020. The provided tables appear to be from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, and do not contain any data for 2020.
+
+However, I can suggest some possible sources where you may be able to find the information you are looking for:
+
+1. Absa Group Limited's annual reports for 2020.
+2. Absa Group Limited's Environmental, Social, and Governance (ESG) reports for 2020.
+3. Absa Group Limited's website, which may have a section on ESG or corporate governance that includes information on Board meeting attendance.
+
+If you have access to these sources, you may be able to find the information you are looking for.",0.0943005308508873,,,
+6,the value of Board meeting attendance (%) in Absa document in 2021?,98.0,"Unfortunately, I do not have the information on the value of Board meeting attendance (%) in Absa document for 2021. The provided tables appear to be from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, and do not contain any data for 2021.
+
+However, I can suggest that you may be able to find the information you are looking for in the 2021 Absa Group Limited Environmental, Social, and Governance Data sheet or other relevant reports. If you provide me with the relevant tables or data, I would be happy to help you answer your question.",0.1009330600500106,,,
+7,the value of Board meeting attendance (%) in Absa document in 2022?,98.0,"Based on the provided tables from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, I was unable to find the value of Board meeting attendance percentage in the given tables.
+
+However, I can suggest that you may want to check other sections of the document or other tables that might contain this information. If you provide more context or specify the exact table or section where this information might be located, I'll be happy to help you further.
+
+Alternatively, if you have access to the full document or other relevant information, you can also try searching for keywords like ""Board meeting attendance"" or ""Board meeting participation"" to see if it's mentioned anywhere in the document.",0.0697686225175857,,,
+8,the value of Average age 40-49 years in Absa document in 2019?,4.0,"Unfortunately, I do not have the necessary information to answer your question as the provided context only includes data from 2022 and does not include any information from 2019.
+
+However, I can suggest that you may be able to find the required information in the Absa Group Limited Environmental, Social and Governance Data sheet for 2019, if it exists. If you provide me with the relevant tables or data from that document, I would be happy to help you with your question.",0.1177741363644599,,,
+9,the value of Average age 40-49 years in Absa document in 2020?,3.0,"Unfortunately, I do not have the necessary information to answer your question as the provided context only includes data from 2022 and does not include any information about the year 2020.
+
+However, I can suggest that you may want to check the Absa Group Limited Environmental, Social and Governance Data sheet for the year 2020 to find the answer to your question. If you provide me with the relevant data, I would be happy to help you with your query.",0.0980032980442047,,,
+10,the value of Average age 40-49 years in Absa document in 2021?,3.0,"Unfortunately, I do not have the necessary information to answer your question as the provided context only includes data from 2022 and does not include any information from 2021.
+
+However, I can suggest that you may need to retrieve the 2021 Environmental, Social, and Governance (ESG) Data sheet from Absa Group Limited to find the required information.",0.1058665215969085,,,
+11,the value of Average age 40-49 years in Absa document in 2022?,2.0,"To find the value of Average age 40-49 years in Absa document in 2022, I will refer to the provided tables.
+
+From TABLE from 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 12, table 1), I see that the average age for the 40-49 years category is 49.43.
+
+Therefore, the value of Average age 40-49 years in Absa document in 2022 is 49.43.
+
+Source: TABLE from 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 12, table 1)",0.1190759465098381,,,
+12,the value of Staff costs and benefits (Rbn) in Absa document in 2019?,26262000000.0,"According to the provided Absa 2022 Environmental, Social, and Governance Indicators document, the value of Staff costs and benefits (Rbn) in 2019 is 26.262 billion.",0.2136050909757614,,,
+13,the value of Staff costs and benefits (Rbn) in Absa document in 2020?,25407000000.0,"According to the provided Absa 2022 Environmental, Social, and Governance Indicators document, the value of Staff costs and benefits (Rbn) in 2020 is:
+
+27 873 (2021) 
+26 133 (2020) 
+25 407 (2019) 
+26 262 (2018)
+
+So, the value of Staff costs and benefits (Rbn) in 2020 is 26 133.",0.1659361273050308,,,
+14,the value of Staff costs and benefits (Rbn) in Absa document in 2021?,26133000000.0,"Based on the provided context from the Absa Group Limited Environmental, Social, and Governance Data sheet (2022), the value of Staff costs and benefits (Rbn) in 2021 is 26,133. 
+
+Source: TABLE from 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 14, table 1)",0.2090532779693603,,,
+15,the value of Staff costs and benefits (Rbn) in Absa document in 2022?,27873000000.0,"Based on the provided context from the Absa Group Limited Environmental, Social, and Governance Data sheet (2022), the value of Staff costs and benefits (Rbn) in 2022 is 27.873 billion. 
+
+Source: TABLE from 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 14, table 1)",0.3292741477489471,,,
+16,the value of Scope 1 in Absa document in 2019?,20835.0,"Unfortunately, I do not have the information on the value of Scope 1 in the Absa document for 2019. The provided tables only contain data for the year 2022. I do not have access to the Absa Group Limited Environmental, Social, and Governance Data sheet for 2019.",0.1614768207073211,,,
+17,the value of Scope 1 in Absa document in 2020?,12258.0,"Unfortunately, I don't have the data for 2020 in the provided tables from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet. The tables provided only contain data for the year 2022.
+
+However, I can suggest that you may need to look for a different document or source that contains the data for 2020. If you have access to the 2021 or 2020 Environmental, Social, and Governance Data sheet for Absa Group Limited, I may be able to help you with the question.
+
+Alternatively, you can also try contacting Absa Group Limited directly and ask them for the data on Scope 1 for the year 2020. They may be able to provide you with the information you need.",0.1971957087516784,,,
+18,the value of Scope 1 in Absa document in 2021?,12276.0,"Unfortunately, I don't have the data for 2021 in the provided tables from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet. The tables only contain data for 2022.
+
+However, I can suggest some possible sources where you may be able to find the data for 2021:
+
+1. Previous editions of the Environmental, Social, and Governance Data sheet for Absa Group Limited.
+2. Absa Group Limited's annual reports for 2021.
+3. Other publicly available sources that may have reported on Absa Group Limited's environmental, social, and governance data for 2021.
+
+If you have access to these sources, you may be able to find the data you're looking for.",0.1352143883705139,,,
+19,the value of Scope 1 in Absa document in 2022?,15885.0,"Based on the provided tables from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, I found the relevant information on Scope 1 emissions.
+
+According to Table 0 on page 11, the value of Scope 1 emissions in 2022 is:
+
+500.0
+
+Source: 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 11, table 0)",0.1713593602180481,,,
+20,the value of Scope 3 in Absa document in 2019?,27775.0,"Unfortunately, I do not have the necessary information to provide the value of Scope 3 in the Absa document for 2019. The provided tables only contain data for the year 2022, and there is no mention of Scope 3 or any other scope for the year 2019.
+
+However, I can suggest that you may need to look for a different document or source that contains the required information. If you have any other questions or need help with something else, feel free to ask.",0.0759059339761734,,,
+21,the value of Scope 3 in Absa document in 2020?,17481.0,"Unfortunately, I do not have the information on the value of Scope 3 in the Absa document for 2020. The provided tables only contain data for the year 2022. 
+
+However, I can suggest that you may need to look for another source or document that contains the required information for 2020. If you have any other questions or need help with something else, feel free to ask.",0.0961552709341049,,,
+22,the value of Scope 3 in Absa document in 2021?,16205.0,"Unfortunately, I do not have the information on the value of Scope 3 in the Absa document for 2021. The provided tables only contain data for 2022, and there is no mention of Scope 3 for 2021.
+
+However, I can suggest that you may need to refer to the Absa Group Limited's Environmental, Social, and Governance Data sheet for 2021 to find the required information. If you have access to that document, please let me know and I can try to assist you further.",-0.0027996599674224,,,
+23,the value of Scope 3 in Absa document in 2022?,23447.0,"Based on the provided tables from the 2022 Absa Group Limited Environmental, Social, and Governance Data sheet, I will attempt to find the value of Scope 3 in 2022.
+
+From the table on page 11 (table 0), I see that the value of Scope 3 in 2022 is 500.0.
+
+However, to confirm this, I will also check the other tables related to Scope 3 emissions.
+
+Unfortunately, I do not see any other tables that provide a value for Scope 3 emissions in 2022. Therefore, based on the information provided, the value of Scope 3 in Absa document in 2022 is 500.0.
+
+Source: TABLE from 2022-Absa-Group-limited-Environmental-Social-and-Governance-Data-sheet.pdf (page 11, table 0)",,0.12774677574634552,0.0,0.016260162601626018
+24,the value of Intensity ratio in Absa document in 2019?,5.79,"Unfortunately, I do not have any information about the value of Intensity ratio in the Absa document for the year 2019. The provided tables from the Absa document only contain data for the year 2022. 
+
+However, I can provide information on the intensity targets for Clicks, as mentioned in the tables from Clicks-Sustainability-Report-2022.pdf.",,0.07173555344343185,0.0,0.0
+25,the value of Intensity ratio in Absa document in 2020?,4.81,"Unfortunately, I do not have the data for 2020 in the provided tables from the Absa Group limited Environmental, Social, and Governance Data sheet (2022). The tables only contain data for 2022.
+
+However, I can suggest that you may need to contact Absa Group directly or check their previous sustainability reports to obtain the required information.
+
+If you have any other questions or need help with something else, feel free to ask.",,0.052498720586299896,0.0,0.0
+26,the value of Intensity ratio in Absa document in 2021?,5.02,"Unfortunately, I do not have the information for the year 2021 in the provided tables from the Absa Group limited Environmental, Social, and Governance Data sheet (2022). The tables provided only contain data for the year 2022.
+
+However, I can suggest that you may need to contact Absa Group directly or check their previous sustainability reports to obtain the required information for the year 2021.
+
+If you have any other questions or need help with something else, feel free to ask.",,0.17451564967632294,0.0,0.0
